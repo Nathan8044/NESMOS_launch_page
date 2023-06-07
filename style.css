@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+h1.main-title {
+
+    color: black;
+    font-size: 80px;
+    text-align: center;
+}
+
+img {
+
+    width: 280px;
+    height: 280px;
+    display: block; 
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+#user_input {
+
+    position: absolute;
+    position: 
+}
+a, input {
+
+    margin-top: 70px;
+}
+
+#email {
+
+    height: 50px;
+    width: 650px;
+    font-size: 25px;
+    border: 10px solid black;
+
+
+}
+
+#waitlist {
+
+    text-decoration: none;
+    border: 5px solid lightcoral;
+    background-color: lightcoral;
+    opacity: 0.8;
+    color: black;
+    font-weight: 400;
+    border-radius: 100px;
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+
+}
+
+#waitlist:hover {
+
+    background-color: lightblue;
+    color: black;
+    border: 5px solid lightblue;
+    opacity: 1;
+}
+
+#email {
+
+    border-radius: 10px;
+    border-color: #767679;
+
+}
+
+#email:hover {
+
+    border-color: lightblue;
+}
+
+#bottom-text {
+
+    opacity: 0.4;
+    font-family: monospace;
+    
+}
