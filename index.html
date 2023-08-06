@@ -2,24 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEBSITE</title>
+    <title>NESMO</title>
+    <!-- <link rel="icon" href="images/logo.svg"> -->
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,100&family=Roboto:ital,wght@0,400;1,100&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d57e6babac.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
-    <img src="images/nesmos-logo.png" alt="logo" class="logo">
-    <div class="user_input">
-        
-        <input type="text" name="email" id="email" placeholder="Enter your Email">
-        <a id="waitlist" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fparadepets.com%2Fpet-news%2Fcute-animals&psig=AOvVaw3vH01-yDAu1Ga_Gcdv-gLb&ust=1686239068965000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMCruZfAsf8CFQAAAAAdAAAAABAE">Join the Waitlist</a>
-        <h4 id="bottom-text">We are probably going to spam you</h4>
-        
-    </div>
-    
+    <header>
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#"><img src="images/logo.svg" alt="Nesmo"></a>
+                <nav class="primary-navigation" id="primary-navigation">
+                    <ul aria-label="Primary" role="list" class="nav-list fs-body">
+                        <li><a class="fw-md" id="features" href="#">Features      <i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a class="fw-md" href="#">About</a></li>
+                        <li><a class="fw-md" href="#">Pricing</a></li>
+                        <li id="waitlist"><a  href="#"><button class="join-btn fs-body">Join Waitlist</button></a></li>
+
+                    </ul>
+                </nav>
+                
+            </div>
+        </div>
+        <div id="features-container" class="features-container features-hidden">
+            <div class="features-in">
+                <ul class="dropdown-menu features-list">
+                    <li><a class="dropdown-item" href="#">Automation</a></li>
+                    <li><a class="dropdown-item" href="#">Security</a></li>
+                    <li><a class="dropdown-item" href="#">Monitoring</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                  </ul>
+                <div class="features-image">
+                    <img class="features-image-logo" src="/images/nesmo-logo.svg" >
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="bottom-container">
+            <h1 class="in-mn-header fs-lg">Empowering your network with Nesmo, your new addition to the team</h1>
 
 
+            <div class="input-container">
+                <div class="in-input">
+
+                    <input type="text" id="input-field" class="input-field fs-xs" placeholder="Enter your email">
+                    <button class="input-btn fs-body">Join Waitlist <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div class="or-lines">
+                <hr class="line-left">
+                <p class=" seperate-or fs-xs">Or</p>
+                <hr class="line-right">
+            </div>
+
+            <div class="connect-container">
+                <a class="social-btn" href="#"><button class="social-btn-in fs-xs"><i class="fa-brands fa-google"></i> Join with Google</button></a>
+            
+                <a class="social-btn" href="#"><button class="social-btn-in fs-xs"><i class="fa-brands fa-github"></i> Join with Github</button></a>
+                
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <script src="index.js"></script>
     
-    <script src="script.js"></script>
+
 </body>
 </html>
